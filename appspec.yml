@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: Capstone_Project_One/Landing_Page.html
-    destination: /var/www/html/test/
+    destination: /var/www/html/
 hooks:
   BeforeInstall:
     - location: Capstone_Project_One/before_install
