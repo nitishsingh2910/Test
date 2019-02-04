@@ -9,6 +9,6 @@ hooks:
       timeout: 300
       runas: root
   AfterInstall:
-    - location: /restart_server
+    - location: Capstone_Project_One/restart_server
       timeout: 300
       runas: root
