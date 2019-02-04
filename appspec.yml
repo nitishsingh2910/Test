@@ -1,11 +1,11 @@
 version: 0.0
 os: linux
 files:
-  - source: /Landing_Page.html
+  - source: Capstone_Project_One/Landing_Page.html
     destination: /var/www/html/
 hooks:
   BeforeInstall:
-    - location: /before_install
+    - location: Capstone_Project_One/before_install
       timeout: 300
       runas: root
   AfterInstall:
